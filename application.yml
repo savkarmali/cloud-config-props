@@ -9,6 +9,19 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: savkarmali3@gmail.com
+    password: hhfj dpgj mvbo seks
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true   
       
 eureka:
   client:
